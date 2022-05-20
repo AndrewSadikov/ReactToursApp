@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+:root {
+  --blue: lightblue;
+  --green: lightgreen;
+  --red: pink;
+  --yellow: yellow;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", cursive;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+.app {
+  margin: 40px 15px;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 16px 10px 4px 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.list {
+  margin: auto;
+  padding: 0px 0px 30px 0px;
+  max-width: 380px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px grey;
+}
+
+.form {
+  margin: 15px 10px 10px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  margin: 0px 5px 0px 30px;
+  padding: 8px 15px;
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.submit-button {
+  margin: 0px 20px 0px 0px;
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.items {
+  margin: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-box {
+  margin: 5px;
+  width: 100%;
+  padding: 4px 8px 4px 15px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.item,
+.item-completed {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-completed {
+  color: grey;
+  text-decoration: line-through;
+}
+
+.icon {
+  font-size: 16px;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.color-buttons {
+  display: flex;
+  justify-content: center;
+  padding: 4px 2px 10px 2px;
+}
+
+.color-buttons button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 0px;
+  margin: 0px 5px;
+  width: 68px;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.blue {
+  background-color: var(--blue);
+}
+
+.green {
+  background-color: var(--green);
+}
+
+.red {
+  background-color: var(--red);
+}
+
+.yellow {
+  background-color: var(--yellow);
+}
