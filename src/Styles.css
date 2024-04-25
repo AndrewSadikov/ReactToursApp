@@ -4,7 +4,7 @@
   --blue: lightblue;
   --green: lightgreen;
   --red: pink;
-  --yellow: yellow;
+  --orange: rgb(255, 201, 114);
 }
 
 * {
@@ -129,6 +129,6 @@ body {
   background-color: var(--red);
 }
 
-.yellow {
-  background-color: var(--yellow);
+.orange {
+  background-color: var(--orange);
 }
